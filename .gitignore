@@ -1,0 +1,7 @@
+# Private key - NEVER commit this!
+*.key
+.uploadslist.key
+
+# Build artifacts
+node_modules/
+.npm/
