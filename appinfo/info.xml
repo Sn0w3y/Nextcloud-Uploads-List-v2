@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>uploadslist</id>
+    <name>Uploads List</name>
+    <summary>Shows individual upload progress for each file</summary>
+    <description><![CDATA[Shows a detailed list of all currently uploading files with individual progress bars, speed, and estimated time per file.]]></description>
+    <version>2.0.0</version>
+    <licence>agpl</licence>
+    <author>Sn0w3y</author>
+    <namespace>UploadsList</namespace>
+    <category>files</category>
+    <bugs>https://github.com/Sn0w3y/Nextcloud-Uploads-List-v2/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="28" max-version="32"/>
+    </dependencies>
+</info>
